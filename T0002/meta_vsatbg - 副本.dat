@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>个股搜索信息</title>
+<LINK 
+href="vsat.css" type=text/css rel=stylesheet>
+<STYLE type=text/css>.TblCaption {FONT-WEIGHT: bold; BORDER-TOP-COLOR: #0000cc; FONT-FAMILY: "宋体"}
+.STYLE3 {FONT-WEIGHT: bold; COLOR: #000000; BORDER-TOP-COLOR: #0000cc; FONT-FAMILY: "宋体"}
+.STYLE4 {COLOR: #000000; FONT-FAMILY: "宋体"}
+.hover {BORDER-RIGHT: #696969 1px solid; BORDER-TOP: #d7d7d7 1px solid; BORDER-LEFT: #d7d7d7 1px solid; CURSOR: hand; COLOR: #ffff00; PADDING-TOP: 2px; BORDER-BOTTOM: #696969 1px solid; HEIGHT: 21px; BACKGROUND-COLOR: #66ccff; TEXT-DECORATION: none}
+.active {BORDER-RIGHT: #d7d7d7 1px solid; BORDER-TOP: #696969 1px solid; BORDER-LEFT: #696969 1px solid; CURSOR: hand; COLOR: #969696; PADDING-TOP: 2px; BORDER-BOTTOM: #d7d7d7 1px solid; HEIGHT: 21px; BACKGROUND-COLOR: #66ccff; TEXT-DECORATION: none}
+.button {BORDER-RIGHT: #696969 1px solid; BORDER-TOP: #d7d7d7 1px solid; BORDER-LEFT: #d7d7d7 1px solid; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #696969 1px solid; HEIGHT: 21px; BACKGROUND-COLOR: #6b8cba; TEXT-DECORATION: none}
+.btndisable {}
+.hotlink {CURSOR: hand; COLOR: #3300ff; TEXT-DECORATION: underline}
+.texthigh {BACKGROUND-COLOR: #ffff00}
+.simsun9 {FONT-SIZE: 9pt; FONT-FAMILY: 宋体}
+</STYLE>
+</head>
+
+<body> 
+<table width="100%" border=0 cellpadding=0 cellspacing=1>
+
+<TR>
+<td>代码</td>
+<td>名称</td>
+<td>日期</td>
+<td>标题</td>
+<td>出处</td>
+<td>作者</td>
+<td>评级</td>
+</TR>
+
+@@@BODY@@@
+
+</table>
+
+
+</body>
+</html>
+

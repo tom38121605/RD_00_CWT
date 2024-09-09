@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>meta_profile</title>
+<link href="meta.css" rel="stylesheet" type="text/css" />
+<style>
+	.selected{ text-decoration:underline; color:#FF0000;}
+</style>
+</head>
+<body onselectstart="return false" >
+	<dl id="con">	
+	@@@BODY@@@
+	</dl>
+</body>
+</html>
+
+
+<script type="text/javascript">
+	function showHideModel(id,id1)
+	{
+    	var a=document.getElementById(id);
+		var b=document.getElementById(id1);
+		var img1="url(meta_close.bmp)";
+		var img2="url(meta_open.bmp)";
+		if(b.style.backgroundImage==""||b.style.backgroundImage==img1)
+			b.style.backgroundImage=img2;
+		else
+			b.style.backgroundImage=img1;
+    	if(a.style.display=="none")
+        	a.style.display="block";
+   		else
+        	a.style.display="none";
+	}	
+
+	var tds = document.getElementById("con").getElementsByTagName("li");
+	window.onload = function(){
+				for( var i=0; i<tds.length; i++ ){
+					tds[i].onclick = function(){
+						tdonclick(this);
+					}
+				}
+			}
+	function tdonclick(obj){
+				for( var o=0; o<tds.length; o++ ){
+					if( tds[o] == obj ){
+							tds[o].children(0).className = 'selected';
+					}
+					else{
+						tds[o].children(0).className = '';
+					}
+				}
+			}
+</script>
